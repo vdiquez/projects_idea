@@ -1,9 +1,9 @@
-package clases.ada.controlversion.ejercicios;
+package clases.ada.controlversion.ejercicios.clase26;
 
 public class CalculadorMayorFactor {
 
         public static void main(String[] args) {
-            encontrarFactores(600851475143l);
+            encontrarFactores(600851475143L);
         }
 
         private static boolean encontrarFactores(long numero) {

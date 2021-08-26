@@ -1,4 +1,4 @@
-package clases.ada.controlversion.ejercicios;
+package clases.ada.controlversion.ejercicios.clase26;
 
 public class SumadorTresCinco {
 
@@ -15,7 +15,7 @@ public class SumadorTresCinco {
     }
 
     private static int calculoConMatematicaPor(int tope, int num) {
-        int result = 0;
+        int result;
         int p = tope / num;
         result = num*(p*(p+1)) / 2;
         return result;
